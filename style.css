@@ -2,10 +2,7 @@
   --bg:#FFFFFF; --card:#FDF8F6; --ink:#3D3A34; --muted:#8A8477; --line:#EFE6DD;
   --pink-light:#F4CFC7; --pink:#E79796; --peach:#FFC98B; --peach2:#FFBE98; --olive:#C6C09C;
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){ --bg:#221F1B; --ink:#F3EEE4; --muted:#B8AF9E; --card:#2B2723; --line:#3A3530; }
-}
-:root[data-theme="dark"]{ --bg:#221F1B; --ink:#F3EEE4; --muted:#B8AF9E; --card:#2B2723; --line:#3A3530; }
+/* Fondo siempre blanco, tal como lo pidió la marca — no cambia con el modo oscuro del sistema */
 html{ scroll-behavior:smooth; scroll-padding-top:calc(76px + env(safe-area-inset-top,0px)); }
 *{ box-sizing:border-box; }
 body{ margin:0; background:var(--bg); color:var(--ink); font-family:'DM Sans',system-ui,sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased; }
