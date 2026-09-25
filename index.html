@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kiut Store — Joyería moderna y versátil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;1,600;1,700&family=DM+Sans:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ---- Doodles reutilizables (fieles al brand kit: florecita y ráfaga) ---- -->
+<svg style="display:none">
+  <symbol id="doodle-flower" viewBox="0 0 100 100">
+    <g fill="none" stroke="currentColor" stroke-width="4">
+      <g id="petal-ref"></g>
+      <ellipse cx="50" cy="24" rx="9" ry="20"/>
+      <ellipse cx="50" cy="24" rx="9" ry="20" transform="rotate(45 50 50)"/>
+      <ellipse cx="50" cy="24" rx="9" ry="20" transform="rotate(90 50 50)"/>
+      <ellipse cx="50" cy="24" rx="9" ry="20" transform="rotate(135 50 50)"/>
+      <ellipse cx="50" cy="24" rx="9" ry="20" transform="rotate(180 50 50)"/>
+      <ellipse cx="50" cy="24" rx="9" ry="20" transform="rotate(225 50 50)"/>
+      <ellipse cx="50" cy="24" rx="9" ry="20" transform="rotate(270 50 50)"/>
+      <ellipse cx="50" cy="24" rx="9" ry="20" transform="rotate(315 50 50)"/>
+      <circle cx="50" cy="50" r="6"/>
+    </g>
+  </symbol>
+  <symbol id="doodle-spark" viewBox="0 0 100 60">
+    <g stroke="currentColor" stroke-width="7" stroke-linecap="round">
+      <line x1="10" y1="55" x2="18" y2="30"/>
+      <line x1="30" y1="58" x2="34" y2="28"/>
+      <line x1="50" y1="58" x2="50" y2="24"/>
+      <line x1="70" y1="58" x2="66" y2="28"/>
+      <line x1="90" y1="55" x2="82" y2="30"/>
+    </g>
+  </symbol>
+</svg>
+
+<header>
+  <nav class="wrap">
+    <a href="#inicio" class="logo">
+      <span class="line1">
+        <svg class="spark" width="20" height="12" style="color:var(--pink)"><use href="#doodle-spark"/></svg>
+        <span class="kiut">kiut</span>
+      </span>
+      <span class="line2">
+        <span class="store">store</span>
+        <svg class="flower" width="14" height="14" style="color:var(--olive)"><use href="#doodle-flower"/></svg>
+      </span>
+    </a>
+    <div class="navlinks">
+      <a href="#sobre">Sobre nosotros</a>
+      <a href="#piezas">Piezas</a>
+      <a href="#comprar">Cómo comprar</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <a class="navcta" href="https://canva.link/catalogokiut" target="_blank" rel="noopener">Ver catálogo</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-blob"></div>
+  <div class="hero-blob2"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <a href="#inicio" class="logo">
+        <span class="line1">
+          <svg class="spark" width="46" height="28" style="color:var(--pink)"><use href="#doodle-spark"/></svg>
+          <span class="kiut">kiut</span>
+        </span>
+        <span class="line2">
+          <span class="store">store</span>
+          <svg class="flower" width="30" height="30" style="color:var(--olive)"><use href="#doodle-flower"/></svg>
+        </span>
+      </a>
+      <h1>Joyería moderna y versátil para expresarte en los pequeños detalles.</h1>
+      <p class="lede">Piezas seleccionadas con estilo, calidad y tendencia — pensadas para acompañarte en tu día a día con actitud y personalidad. Envíos a Managua y a todo Nicaragua.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://canva.link/catalogokiut" target="_blank" rel="noopener">Ver catálogo completo</a>
+        <a class="btn btn-ghost" href="https://wa.me/50557756204" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="{{HERO_B64}}" alt="Dije de flor en oro con piedra rosa, joyería Kiut Store">
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Sobre la marca</span>
+      <h2>Un espacio para expresarte desde lo simple y elegante.</h2>
+    </div>
+    <div class="about-grid">
+      <p>Kiut Store es una marca en constante evolución, creada para acompañar el estilo de vida de una generación joven, auténtica y consciente de los detalles. Su línea principal está centrada en la joyería moderna y versátil, aunque también pueden encontrarse piezas seleccionadas de moda y accesorios, pensadas para hombres y mujeres. Kiut no solo vende productos: propone una forma de expresarse a través de los pequeños detalles.</p>
+      <div>
+        <div class="mv-card">
+          <h3>Misión</h3>
+          <p>Inspirar confianza, estilo y autenticidad en cada persona, ofreciendo joyería y productos seleccionados que complementen la personalidad de quienes buscan destacar desde lo simple y elegante.</p>
+        </div>
+        <div class="mv-card">
+          <h3>Visión</h3>
+          <p>Convertirnos en una marca de referencia en el estilo juvenil, ofreciendo una experiencia visual y de compra moderna, fresca y coherente con las tendencias actuales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="piezas">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Piezas destacadas</span>
+      <h2>Una probadita de lo que encuentras en el catálogo</h2>
+      <p>El catálogo completo se actualiza seguido — mira siempre la versión más reciente en el botón de arriba.</p>
+    </div>
+    <div class="pieces-grid">
+      <a class="piece-card" href="https://canva.link/catalogokiut" target="_blank" rel="noopener">
+        <div class="piece-photo"><img src="{{HERO_B64}}" alt="Collar con dije de flor, Kiut Store"></div>
+        <h3>Collares</h3>
+        <p>Dijes y cadenas para dar el toque final</p>
+      </a>
+      <a class="piece-card" href="https://canva.link/catalogokiut" target="_blank" rel="noopener">
+        <div class="piece-photo"><img src="{{RING_B64}}" alt="Anillo dorado con detalle de estrellas, Kiut Store"></div>
+        <h3>Anillos</h3>
+        <p>De los delicados a los statement</p>
+      </a>
+      <a class="piece-card" href="https://canva.link/catalogokiut" target="_blank" rel="noopener">
+        <div class="piece-photo"><img src="{{BRACELET_B64}}" alt="Brazalete dorado grabado, Kiut Store"></div>
+        <h3>Pulseras</h3>
+        <p>Para combinar solas o en capas</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="comprar">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Cómo comprar</span>
+      <h2>Pedir tu pieza es así de fácil</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Explora el catálogo</h3>
+        <p>Mira todas las piezas disponibles y sus precios actualizados.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Escríbenos por WhatsApp</h3>
+        <p>Cuéntanos qué pieza quieres y confirmamos disponibilidad.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Coordinamos entrega</h3>
+        <p>Recoge en Managua o recíbelo por envío a cualquier parte del país.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Contacto</span>
+      <h2>Hablemos por donde te quede más fácil</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>WhatsApp</h3>
+        <a class="big" href="https://wa.me/50557756204" target="_blank" rel="noopener">+505 5775 6204</a>
+      </div>
+      <div class="contact-card">
+        <h3>Instagram</h3>
+        <a class="big" href="https://instagram.com/kiuts_tore" target="_blank" rel="noopener">@kiuts_tore</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="#inicio" class="logo">
+        <span class="line1"><span class="kiut">kiut</span></span>
+        <span class="line2"><span class="store">store</span></span>
+      </a>
+      <div class="footer-links">
+        <a href="#sobre">Sobre nosotros</a>
+        <a href="#piezas">Piezas</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+
+    <details>
+      <summary>Política de privacidad</summary>
+      <p>En Kiut Store recopilamos únicamente los datos que compartes al escribirnos por WhatsApp o Instagram (nombre, dirección y contacto) para gestionar tu pedido y envío. No compartimos tu información con terceros.</p>
+    </details>
+
+    <details>
+      <summary>Términos y condiciones</summary>
+      <p>Los precios y disponibilidad se confirman al momento de tu pedido por WhatsApp, ya que el catálogo se actualiza frecuentemente. Los envíos fuera de Managua pueden tener un costo adicional según la zona. Los productos en "sold out" no están disponibles hasta nuevo aviso.</p>
+    </details>
+
+    <p class="copyright">© <span id="year"></span> Kiut Store. Sitio realizado por Zuirix.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
